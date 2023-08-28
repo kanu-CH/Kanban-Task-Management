@@ -1,0 +1,77 @@
+{
+  "boards": [
+    {
+      "name": "Tasks",
+      "isActive" : false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Go to shopping",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Buy Veggies",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Complete Homework",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Physics",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Maths",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doing",
+          "tasks": [
+            {
+              "title": "Art Work",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Fill colors",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Black Border",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Coding",
+              "description": "",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Leetcode",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
